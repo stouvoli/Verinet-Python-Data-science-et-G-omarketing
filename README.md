@@ -1,0 +1,1 @@
+# Verinet-Python-Data-science-et-G-omarketing
