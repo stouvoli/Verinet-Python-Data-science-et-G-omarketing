@@ -1,1 +1,1 @@
-# Verinet-Python-Data-science-et-G-omarketing
+# Verinet Python Data science et Géomarketing
