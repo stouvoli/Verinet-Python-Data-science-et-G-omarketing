@@ -1,0 +1,15 @@
+import csv
+
+enrollments_filename = 'enrollments.csv'
+
+with open(enrollments_filename, 'r', encoding='utf-8') as f:
+    reader = csv.DictReader(f)
+    enrollments = list(reader)
+
+### Écrire un code similaire à celui ci-dessus pour charger les données 
+### d'engagement et de soumission. Les données sont stockées dans des fichiers 
+### avec les noms de fichiers donnés. Ensuite, affichez la première ligne 
+### de chaque table pour vous assurer que votre code fonctionne.
+
+engagement_filename = ''
+submissions_filename = ''
