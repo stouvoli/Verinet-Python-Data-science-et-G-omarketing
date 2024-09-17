@@ -1,0 +1,14 @@
+female_completion_rate:
+Taux d'achèvement primaire féminin : pourcentage de filles terminant la dernière année de l'école primaire. Il est calculé en prenant le nombre total de filles dans la dernière année de l'école primaire, moins le nombre de redoublants dans cette année, divisé par le nombre total d'enfants en âge officiel de fin d'études primaires. Le ratio peut dépasser 100 % en raison de la présence d'enfants plus âgés ou plus jeunes qui entrent à l'école primaire en retard/en avance et/ou redoublent des classes. Source : Institut de statistique de l'Organisation des Nations Unies pour l'éducation, la science et la culture (UNESCO).
+
+male_completion_rate:
+Identique à female_completion_rate, mais pour les élèves masculins.
+
+life_expectancy:
+Espérance de vie : nombre moyen d'années qu'un nouveau-né vivrait si les schémas de mortalité actuels devaient rester les mêmes.
+
+gpd_per_capita:
+Produit intérieur brut par habitant en dollars constants de 2000. L'inflation, mais pas les différences de coût de la vie entre les pays, a été prise en compte.
+
+employment_above_15:
+Pourcentage de la population totale, âgée de plus de 15 ans, qui a été employée au cours de l'année donnée. 
