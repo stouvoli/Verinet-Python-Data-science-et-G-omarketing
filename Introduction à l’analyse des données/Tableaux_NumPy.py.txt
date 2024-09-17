@@ -1,0 +1,71 @@
+import numpy as np
+
+# Premiers 20 pays avec des données sur l'emploi
+countries = np.array([
+    'Afghanistan', 'Albania', 'Algeria', 'Angola', 'Argentina',
+    'Armenia', 'Australia', 'Austria', 'Azerbaijan', 'Bahamas',
+    'Bahrain', 'Bangladesh', 'Barbados', 'Belarus', 'Belgium',
+    'Belize', 'Benin', 'Bhutan', 'Bolivia',
+    'Bosnia and Herzegovina'
+])
+
+# Données sur l'emploi en 2007 pour ces 20 pays
+employment = np.array([
+    55.70000076, 51.40000153, 50.5        , 75.69999695,
+    58.40000153, 40.09999847, 61.5        , 57.09999847,
+    60.90000153, 66.59999847, 60.40000153, 68.09999847,
+    66.90000153, 53.40000153, 48.59999847, 56.79999924,
+    71.59999847, 58.40000153, 70.40000153, 41.20000076
+])
+
+# Changez False en True pour chaque bloc de code pour voir ce qu'il fait
+
+# Accéder aux éléments
+if False:
+    print(countries[0])
+    print(countries[3])
+
+# Découpage (slicing)
+if False:
+    print(countries[0:3])
+    print(countries[:3])
+    print(countries[17:])
+    print(countries[:])
+
+# Types d'éléments
+if False:
+    print(countries.dtype)
+    print(employment.dtype)
+    print(np.array([0, 1, 2, 3]).dtype)
+    print(np.array([1.0, 1.5, 2.0, 2.5]).dtype)
+    print(np.array([True, False, True]).dtype)
+    print(np.array(['AL', 'AK', 'AZ', 'AR', 'CA']).dtype)
+
+# Boucle
+if False:
+    for country in countries:
+        print('Examen du pays {}'.format(country))
+
+    for i in range(len(countries)):
+        country = countries[i]
+        country_employment = employment[i]
+        print('Le pays {} a un taux d\'emploi de {}'.format(country,
+                                                       country_employment))
+
+# Fonctions Numpy
+if False:
+    print(employment.mean())
+    print(employment.std())
+    print(employment.max())
+    print(employment.sum())
+
+def max_employment(countries, employment):
+    '''
+    Complétez cette fonction pour renvoyer le nom du pays
+    avec le taux d'emploi le plus élevé dans les données d'emploi fournies,
+    ainsi que le taux d'emploi dans ce pays.
+    '''
+    max_country = None  # Remplacez ceci par votre code
+    max_value = None  # Remplacez ceci par votre code
+
+    return (max_country, max_value)
