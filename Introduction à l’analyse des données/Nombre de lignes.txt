@@ -1,0 +1,15 @@
+enrollment_num_rows = ''        # TODO Replace this with your code
+enrollment_num_unique_students = ''  # TODO Replace this with your code
+
+engagement_num_rows = ''             # TODO Replace this with your code
+engagement_num_unique_students = ''  # TODO Replace this with your code
+
+submission_num_rows = ''            # TODO Replace this with your code
+submission_num_unique_students = ''  # TODO Replace this with your code
+
+print(f"enrollment_num_rows = {enrollment_num_rows}")
+print(f"enrollment_num_unique_students = {enrollment_num_unique_students}")
+print(f"engagement_num_rows = {engagement_num_rows}")
+print(f"engagement_num_unique_students = {engagement_num_unique_students}")
+print(f"submission_num_rows = {submission_num_rows}")
+print(f"submission_num_unique_students = {submission_num_unique_students}")
