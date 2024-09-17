@@ -1,0 +1,13 @@
+def moyenne_voyageurs_station_maximale(frequentation):
+    '''
+    Complétez cette fonction pour trouver la station avec le maximum de voyageurs le
+    premier jour, puis retournez la moyenne des voyageurs par jour pour cette station.
+    Retournez également la moyenne de la fréquentation globale pour comparaison.
+
+    Indice: La fonction argmax() de NumPy pourrait être utile:
+    [http://docs.scipy.org/doc/numpy/reference/generated/numpy.argmax.html](http://docs.scipy.org/doc/numpy/reference/generated/numpy.argmax.html)
+    '''
+    moyenne_globale = None # TODO Remplacez ceci par votre code
+    moyenne_pour_max = None # TODO Remplacez ceci par votre code
+
+    return None # TODO
