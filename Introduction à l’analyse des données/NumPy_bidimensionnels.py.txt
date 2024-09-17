@@ -1,0 +1,34 @@
+import numpy as np
+
+# Fréquentation du métro pour 5 stations sur 10 jours différents
+frequentation = np.array([
+    [    0,     0,     2,     5,     0],
+    [1478, 3877, 3674, 2328, 2539],
+    [1613, 4088, 3991, 6461, 2691],
+    [1560, 3392, 3826, 4787, 2613],
+    [1608, 4802, 3932, 4477, 2705],
+    [1576, 3933, 3909, 4979, 2685],
+    [   95,   229,   255,   496,   201],
+    [    2,     0,     1,    27,     0],
+    [1438, 3785, 3589, 4174, 2215],
+    [1342, 4043, 4009, 4665, 3033]
+])
+
+# Changez False en True pour chaque bloc de code pour voir ce qu'il fait
+
+# Accéder aux éléments
+if False:
+    print(frequentation[1, 3])
+    print(frequentation[1:3, 3:5])
+    print(frequentation[1, :])
+
+# Opérations vectorisées sur les lignes ou les colonnes
+if False:
+    print(frequentation[0, :] + frequentation[1, :])
+    print(frequentation[:, 0] + frequentation[:, 1])
+
+# Opérations vectorisées sur des tableaux entiers
+if False:
+    a = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+    b = np.array([[1, 1, 1], [2, 2, 2], [3, 3, 3]])
+    print(a + b)
