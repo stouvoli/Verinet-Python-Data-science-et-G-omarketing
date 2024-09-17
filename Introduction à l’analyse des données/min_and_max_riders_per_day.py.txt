@@ -1,0 +1,26 @@
+# Nombre de passagers du métro pour 5 stations sur 10 jours différents
+ridership = np.array([
+    [   0,    0,    2,    5,    0],
+    [1478, 3877, 3674, 2328, 2539],
+    [1613, 4088, 3991, 6461, 2691],
+    [1560, 3392, 3826, 4787, 2613],
+    [1608, 4802, 3932, 4477, 2705],
+    [1576, 3933, 3909, 4979, 2685],
+    [  95,  229,  255,  496,  201],
+    [   2,    0,    1,   27,    0],
+    [1438, 3785, 3589, 4174, 2215],
+    [1342, 4043, 4009, 4665, 3033]
+])
+
+def min_and_max_riders_per_day(ridership):
+    '''
+    Remplissez cette fonction. Tout d'abord, pour chaque station de métro, calculez la
+    moyenne du nombre de passagers par jour. Ensuite, parmi toutes les stations de métro, renvoyez les
+    valeurs maximale et minimale de ces moyennes. C'est-à-dire, trouvez la valeur maximale
+    de la moyenne de passagers par jour et la valeur minimale pour n'importe quelle
+    station de métro.
+    '''
+    max_daily_ridership = None   # TODO Remplacez cela par votre code
+    min_daily_ridership = None   # TODO Remplacez cela par votre code
+    
+    return None
