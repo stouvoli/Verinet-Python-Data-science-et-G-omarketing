@@ -1,0 +1,26 @@
+import pandas as pd
+
+nom_fichier = 'nyc_subway_weather.csv'
+metro_df = pd.read_csv(nom_fichier)
+
+def correlation(x, y):
+    '''
+    Compléter cette fonction pour calculer la corrélation entre les deux
+    variables d'entrée. Chaque entrée est soit un tableau NumPy, soit une série Pandas.
+
+    corrélation = moyenne de (x en unités standard) fois (y en unités standard)
+
+    N'oubliez pas de passer l'argument "ddof=0" à la fonction Pandas std() !
+    '''
+    return None
+
+entrees = metro_df['ENTRIESn_hourly']
+entrees_cumulees = metro_df['ENTRIESn']
+pluie = metro_df['meanprecipi']
+temperature = metro_df['meantempi']
+
+print(correlation(entrees, pluie))
+print(correlation(entrees, temperature))
+print(correlation(pluie, temperature))
+
+print(correlation(entrees, entrees_cumulees))
