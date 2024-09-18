@@ -1,0 +1,18 @@
+def NBAccuracy(features_train, labels_train, features_test, labels_test):
+    """ calcule la précision de votre classificateur Naive Bayes """
+    ### importe le module sklearn pour GaussianNB
+    from sklearn.naive_bayes import GaussianNB
+
+    ### crée le classificateur
+    clf = #TODO
+
+    ### entraîne le classificateur sur les caractéristiques et les étiquettes d'entraînement
+    #TODO
+
+    ### utilise le classificateur entraîné pour prédire les étiquettes pour les caractéristiques de test
+    pred = #TODO
+
+
+    ### calcule et renvoie la précision sur les données de test
+    accuracy = clf.score(features_test, labels_test) #TODO
+    return accuracy
