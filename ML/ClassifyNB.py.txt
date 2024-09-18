@@ -1,0 +1,7 @@
+def classify(features_train, labels_train):
+    ### importer le module sklearn pour GaussianNB 
+    ### créer le classifieur
+    ### ajuster le classifieur sur les caractéristiques et les étiquettes d'entraînement 
+    ### retourner le classifieur ajusté
+
+    ### TODO votre code va ici !
