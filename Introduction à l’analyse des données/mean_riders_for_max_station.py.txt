@@ -1,0 +1,13 @@
+def mean_riders_for_max_station(ridership):
+    '''
+    Remplissez cette fonction pour trouver la station avec le maximum de passagers le
+    premier jour, puis retournez la moyenne des passagers par jour pour cette station. Aussi
+    retournez la moyenne de la fréquentation globale pour comparaison.
+
+    C'est la même chose qu'un exercice précédent, mais cette fois le
+    l'entrée est un DataFrame Pandas plutôt qu'un tableau NumPy 2D.
+    '''
+    overall_mean = None # Remplacez ceci par votre code
+    mean_for_max = None # Remplacez ceci par votre code
+
+    return (overall_mean, mean_for_max)
