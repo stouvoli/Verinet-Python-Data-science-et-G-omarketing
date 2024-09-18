@@ -1,0 +1,20 @@
+grades_df = pd.DataFrame(
+    data={'exam1': [43, 81, 78, 75, 89, 70, 91, 65, 98, 87],
+          'exam2': [24, 63, 56, 56, 67, 51, 79, 46, 72, 60]},
+    index=['Andre', 'Barry', 'Chris', 'Dan', 'Emilio', 
+          'Fred', 'Greta', 'Humbert', 'Ivan', 'James']
+)
+    
+def convert_grades(grades):
+    '''
+    Remplir cette fonction pour convertir le DataFrame donné de notes numériques
+    en lettres de notes. Retourner un nouveau DataFrame avec les notes converties.
+    
+    La règle de conversion est:
+        90-100 -> A
+        80-89  -> B
+        70-79  -> C
+        60-69  -> D
+        0-59   -> F
+    '''
+    return None
